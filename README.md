@@ -18,7 +18,7 @@ to
 let excludeAiring = true;
 ```
 
-or simply [Download](https://raw.githubusercontent.com/hyperstown/malFilter/master/malFilterA.user.js) exclude Airing version (Greasemonkey/Tampermonkey must be installed)
+or simply [Download](https://raw.githubusercontent.com/hyperstown/malFilter.user.js/master/malFilterA.user.js) exclude Airing version (Greasemonkey/Tampermonkey must be installed)
 
 ## Installation
 
@@ -26,7 +26,7 @@ or simply [Download](https://raw.githubusercontent.com/hyperstown/malFilter/mast
 
 - Download [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) for Chromium/Chrome/Brave
 
-- [Click here](https://raw.githubusercontent.com/hyperstown/malFilter/master/malFilter.user.js) to initialize installer. 
+- [Click here](https://raw.githubusercontent.com/hyperstown/malFilter.user.js/master/malFilter.user.js) to initialize installer. 
 
 - Installation popup should appear. Click install / OK
 
