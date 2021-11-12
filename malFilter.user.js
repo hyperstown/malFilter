@@ -1,5 +1,5 @@
 // ==UserScript==
-// @description Filter anime list by only aired/airing shows
+// @description Filter your anime list by only aired/airing shows
 // @name        malFilter
 // @include     *://myanimelist.net/animelist/*
 // @version     v1.0
