@@ -12,16 +12,16 @@ let onlyAired = localStorage.getItem("onlyAired");
 if (onlyAired === null){
     // string because localStorage accepts only strings
     // localStorage.setItem("onlyAired", "false"); 
-    onlyAired = "false"
+    onlyAired = "false";
 }
 
 
 // filter elements function
 function filterTable(){
-    let onlyAiredCheckbox = document.getElementById('onlyAired')
+    let onlyAiredCheckbox = document.getElementById('onlyAired');
     let rowStyle = null;
     if(onlyAiredCheckbox.checked){
-        rowStyle = 'none'
+        rowStyle = 'none';
         // localStorage.setItem("onlyAired", "true");
     }
     else{
@@ -43,14 +43,14 @@ function filterTable(){
 
 // Add new setting element
 let newSettingElement = document.createElement('div');
-newSettingElement.classList.add('icon-menu')
+newSettingElement.classList.add('icon-menu');
 
 let checkbox = document.createElement('input');
 checkbox.type = "checkbox";
 checkbox.id = "onlyAired";
 checkbox.checked = JSON.parse(onlyAired);
 checkbox.style = "left:13px; top:12px; position:absolute;";
-checkbox.onclick = filterTable
+checkbox.onclick = filterTable;
 
 let newSettingElementText = document.createElement('span');
 newSettingElementText.classList.add('text');
